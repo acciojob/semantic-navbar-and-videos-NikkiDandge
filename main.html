@@ -3,6 +3,7 @@
 <html>
 
 <head>
+	<title>semantic navbar and video</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
@@ -11,21 +12,23 @@
     <script type="text/javascript" src="./script.js">
 		
 </script>
-<nav>
-	<ul>
-	<a href="">Home</a><br>
-	<a href="">About us</a><br>
-	<a href="">Contact us</a><br>
-	<a href="https://www.google.com/">Google us</a>
-</ul>
+<header>
+	<nav>
+		<ul style="list-style-type: none;">
+			<li> <a href=""> Home </a> </li>
+			<li> <a href=""> About Us </a> </li>
+			<li> <a href=""> Contact Us </a> </li>
+		</ul>
+	</nav>
+</header>
 
-</nav>
-<h3> "3 Random Videos"</h3>
-<div class="Details">
-<video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" controls ></video> <br>
-<video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" controls ></video><br>
-<video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" controls ></video>
+<div>
+	<h4> 3 Random Videos </h4>
+	<video class="video" src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" controls> </video>
+	<video class="video" src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" controls> </video>
+	<video class="video" src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" controls> </video>
 </div>
+
 </body>
 
 </html>

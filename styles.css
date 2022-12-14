@@ -1,5 +1,12 @@
-.Details{
-    height: auto;
-    width: auto;
+.video
+{
+    height: 250px;
+    width: 500px;
+}
+
+/* Your CSS Code here. */
+li
+{
+    display: inline-block;
 }
 /* Your CSS Code here. */
